@@ -1,0 +1,38 @@
+{
+    "name": "MDOOM ",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "arcade-character-animations": "github:microsoft/arcade-character-animations#v0.0.2",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0",
+        "pxt-raycasting": "github:AqeeAqee/pxt-raycasting#v0.3.13",
+        "sprite-scaling": "*",
+        "Color Fading": "github:jwunderl/pxt-color#v0.2.2",
+        "arcade-text": "github:microsoft/arcade-text#v1.3.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.8.23",
+        "tag": "v1.8.23",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/9c2cb5aa7c70a9b9cbfa1b3520ca036d82ba8483",
+        "target": "1.10.36",
+        "pxt": "7.4.27",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
